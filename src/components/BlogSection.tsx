@@ -1,5 +1,4 @@
-import AdSensePlaceholder from "./AdSensePlaceholder.tsx";
-
+import AdSensePlaceholder from "./AdSensePlaceholder";
 export default function BlogSection() {
   const posts = [
     { 
