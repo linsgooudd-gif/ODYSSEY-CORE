@@ -75,3 +75,27 @@ function NewsCard({ post, featured = false }: { post: any, featured?: boolean })
     </article>
   );
 }
+{
+    id: 7,
+    title: "Escasez de Microchips en el Sector Gamma",
+    excerpt: "La producción de tarjetas gráficas espaciales cae un 15% debido a tormentas solares...",
+    date: "2026-03-05"
+  },
+  {
+    id: 8,
+    title: "Nueva Ley de Propiedad en Asteroides",
+    excerpt: "El Congreso de Venezuela Espacial debate sobre los derechos de minería privada...",
+    date: "2026-03-01"
+  },
+  {
+    id: 9,
+    title: "Hackeo Masivo a la Red Aether",
+    excerpt: "Expertos en ciberseguridad detienen un ataque de piratas espaciales a los servidores...",
+    date: "2026-02-25"
+  },
+  {
+    id: 10,
+    title: "Evento: Convención de Pilotos en la Luna",
+    excerpt: "Se reúnen los mejores capitanes para discutir el futuro de la exploración profunda...",
+    date: "2026-02-20"
+  }
