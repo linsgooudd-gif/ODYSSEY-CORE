@@ -55,3 +55,27 @@ export default function RootLayout({
     </html>
   );
 }
+import "./globals.css";
+import Script from 'next/script'; // <--- OBLIGATORIO
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="es">
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289422453597401"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
