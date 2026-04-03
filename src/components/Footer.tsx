@@ -13,4 +13,10 @@ export default function Footer() {
       </p>
     </footer>
   );
-}
+} {/* SECCIÓN LEGAL PARA ADSENSE */}
+<div className="mt-8 pt-4 border-t border-white/5 w-full max-w-5xl mx-auto px-4 text-center">
+  <p className="text-[10px] text-foreground/30 uppercase tracking-[0.2em] leading-relaxed">
+    Privacy Policy: ODYSSEY (Aether Projects) uses cookies for Google AdSense and local storage to save your game progress (credits and ships). 
+    <span className="block mt-1">Contact: admin@aether-projects.com</span>
+  </p>
+</div>
