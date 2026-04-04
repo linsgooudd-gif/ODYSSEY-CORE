@@ -7,7 +7,7 @@ const orbitron = Orbitron({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ODYSSEY - Aether Projects",
-  description: "Embark on an epic idle space tycoon adventure.",
+  description: "Minería Espacial",
 };
 
 export default function RootLayout({
@@ -18,10 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        {/* MÉTODO 1: METAETIQUETA (LA LLAVE MAESTRA) */}
-        <meta name="google-adsense-account" content="ca-pub-7289422453597401" />
-
-        {/* MÉTODO 2: SCRIPT DE ADSENSE */}
+        {/* Este es el código que Google te pidió que pegaras en el <head> */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289422453597401"
@@ -29,7 +26,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
-      <body className={`${orbitron.className} min-h-screen bg-background text-foreground flex flex-col`}>
+      <body className={orbitron.className}>
         {children}
       </body>
     </html>
