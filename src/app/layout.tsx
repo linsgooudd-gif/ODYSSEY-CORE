@@ -7,7 +7,7 @@ const orbitron = Orbitron({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ODYSSEY - Aether Projects",
-  description: "Embark on an epic idle space tycoon adventure. Manage resources, upgrade your fleet, and conquer the stars.",
+  description: "Embark on an epic idle space tycoon adventure.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        {/* CONEXIÓN ADSENSE - PUB-7289422453597401 */}
+        {/* MÉTODO 1: METAETIQUETA (LA LLAVE MAESTRA) */}
+        <meta name="google-adsense-account" content="ca-pub-7289422453597401" />
+
+        {/* MÉTODO 2: SCRIPT DE ADSENSE */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289422453597401"
