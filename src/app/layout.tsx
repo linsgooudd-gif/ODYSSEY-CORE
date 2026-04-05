@@ -17,7 +17,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <head>
+      <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289422453597401"
+     crossorigin="anonymous"></script>
         {/* Este es el código que Google te pidió que pegaras en el <head> */}
         <Script
           async
@@ -25,7 +26,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-      </head>
+      </head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289422453597401"
+     crossorigin="anonymous"></script>
       <body className={orbitron.className}>
         {children}
       </body>
